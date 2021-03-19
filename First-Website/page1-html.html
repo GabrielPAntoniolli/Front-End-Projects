@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+<!--my nav bar, fixed in the top of every page-->
+    <div id="myNav">
+
+        <nav class="navbar">
+            <div class="containerNav">
+                <a class="brand">CCT ComputingWorld</a>
+                <a class="navLinks"  href="index.html">Home</a>
+                <a class="navLinks" aria-current="page" href="page1-html.html">HTML</a>
+                <a class="navLinks" href="page2-css.html">CSS</a>
+                <a class="navLinks" href="page3-js.html">JavaScript</a>
+                <a class="contactUs" href="page4-bootstrap.html">Contact Us</a>
+
+            </div>
+        </nav>
+    </div>
+<!--this div covers all the content of my web page-->
+    <div class="pageContent">
+        <div class="imageHeader">
+            <img src="img/htmlpageimage.jpg" alt="headerImage">
+            <header> HTML </header>
+        </div>
+
+<!-- div to cover all my text body-->
+        <div class="mainText">
+            <h1 style="text-align: center;"><b>What is HTML?</b></h1>
+            <p> Hypertext Markup Language (HTML) is the language used to create webpages. It can be assisted by other
+                technologies such as: CSS and
+                JavaScript.<br>
+                Web browsers such as: Google Chrome, Mozilla Firefox, Internet Explorer,… receive HTML documents from a
+                local storage or a web server and render the archives into webpages.
+                HTML elements are the bricks of the webpages, they are responsible for making the structure. The
+                language
+                provides ways to make structured documents by denoting structural semantics for text such as: list,
+                paragraphs, headings, links, quotes, and other items.
+                The elements are delineated by tags, typed using angle brackets, here is an example:
+            </p>
+            <img src="img/htmlExample.png" alt="html example" class="exampleImages">
+            <p>
+
+                the elements (words between angle brackets) are not going to appear in the browser, for example, <br>the
+                &lt;h1&gt; tag, is used to print out a header... so when we insert &lt;h1&gt; Big Header &lt;/h1&gt;,
+                that should be the result:
+
+            <h1>Big Header</h1>
+
+            <img src="img/htmlExample2.png" alt="html example" class="exampleImages">
+
+            <p>All HTML page starts with the same structure.No secrets, you can simply copy this from some place, or can
+                start it on VSCode just typying "!" and hit enter, VSCode will do the rest automotically,</p>
+
+            </p>
+            <img src="img/htmlExample3.png" alt="html example image 3">
+
+            <p>The first line is called DOCTYPE. Doctype notifies browsers, search robots, screen readers and other
+                things what kind of document is the one they are about to upload. There are other codes that we can
+                load, for example XML. That's why Doctype warns the browser so that it knows how to behave when reading
+                the code.</p>
+
+            <p>Then we start with the HTML tag. This means that everything between the tags is written in HTML. Next to
+                the word HTML there is an attribute called lang, where we indicate the language of the text we will
+                write.</p>
+
+            <p>Right after the html tag we have the Head tag. In the Head tag we indicate the title of the document and
+                indicate the table of characters that the browser must use to render its text. We can also import CSS
+                pages and Scripts</p>
+
+            <p>The title tag is very important. It is with it that you indicate the title of the document. Google and
+                other search engines use this tag to indicate the title of the page in their searches. This is very
+                important for you to appear well in searches.</p>
+            <p><p> Though it is pretty amazing to starting making our own html pages, just the HTML language is not enough
+                to make our website page look modern and beautiful. This is when our CSS content comes, if you want to
+                learn more about it click in the button bellow:</p></p>
+<!--button leading to another page-->
+            <a href="page2-css.html">
+                <div class="btn">
+                    <div class="btnText"> More...</div>
+                    <br><br>
+                </div>
+            </a>
+        </div>
+        <br>
+        <div class="baseBoard">
+            <br><br>
+            <ul class="textBaseBoard">
+                <li>Gabriel Pereira Antoniolli</li>
+                <li>CCT College Dublin</li>
+                <li>SN: 2020352</li>
+                <li>John Snel</li>
+                <li>1st Assingment</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
