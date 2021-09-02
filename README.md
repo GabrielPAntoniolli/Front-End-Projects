@@ -1,2 +1,2 @@
 # Front-End-Projects
-repository for my front-end projects
+Repository responsable for storing my portfolio of front end projects.
