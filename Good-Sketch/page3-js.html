@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div id="myNav">
+
+        <nav class="navbar">
+            <div class="containerNav">
+                <a class="brand">DigiTech.abc</a>
+                <a class="navLinks" href="index.html">Home</a>
+                <a class="navLinks" href="page1-html.html">HTML</a>
+                <a class="navLinks" href="page2-css.html">CSS</a>
+                <a class="navLinks" aria-current="page" href="page3-js.html">JavaScript</a>
+                <a class="contactUs" href="page4-bootstrap.html">Contact Us</a>
+
+            </div>
+        </nav>
+    </div>
+
+    <div class="pageContent">
+        <div class="imageHeader">
+            <img src="img/javascriptpageimage.jpg" alt="headerImage">
+            <header> JavaScript </header>
+        </div>
+
+
+        <div class="mainText">
+            <h1 style="text-align: center;"><b>What is JavaScript?</b></h1>
+            <p>It's a high-level programming language. created, initially, to be executed in web browsers and handle
+                webpages behaviors.
+                With it's scripts it is possible to include, in a static page, dinamin elements like maps, forms,
+                numerical operations, animations, interactive graphics and much more.</p>
+            <p>JavaScript is one of the most important technologies for the front-end, and together with HTML and CSS it
+                covers pretty much all the requirements of the development of a complete webpage, dinamic, with
+                high-performance. </p>
+            <p>JavaScript, originally, is a client-side programming language, in other words, it is executed in the
+                clients side, more especifically in the browser used by the client. This means that all the actions
+                taken are processed in the computer of who uses it, with no necessities of sending it to any other
+                enviroment. Because no information is sent to a external server, the responses are immediates.</p>
+            <p>Below we can see how JavaScript can be applied to change the color of the background of a webpage using
+                buttons:</p>
+            <img src="img/javascriptExample.png" alt="javascript example image" class="jsExampImage">
+            <p>this is the JavaScript sample, now it will be displayed how it was implemented in the HTML document:</p>
+            <img src="img/jsExampleImage2.png" alt="second image example">
+            <p>Here we can see that the JavaScript function is called in the onclick attribute, meaning that when the
+                button is click the function will be applied, in this case, the buttons will change the background color
+                of the Page.</p>
+                <p>Now press the buttons below and see magic happens!</p>
+            
+                <!---applying Java Script in color buttons, this way on click event the background color will be changed---->
+            <div id="jsButtons">
+                <a href="#red"onclick="changeBgColor('red')">
+                    <div class="redjs-btn">
+                        <div class="btnText"> Red</div>
+                        <br><br>
+                    </div>
+                </a>
+                <a href="#yellow" onclick="changeBgColor('yellow')">
+                    <div class="yellowjs-btn">
+                        <div class="btnText"> Yellow</div>
+                        <br><br>
+                    </div>
+                </a>
+                <a href="#green" onclick="changeBgColor('green')">
+                    <div class="greenjs-btn">
+                        <div class="btnText"> Green</div>
+                        <br><br>
+                    </div>
+                </a>
+                <a href="#white" onclick="changeBgColor('white')">
+                    <div class="whitejs-btn">
+                        <div class="btnText"> White</div>
+                        <br><br>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <br><br>
+
+        <div class="baseBoard">
+            <br><br>
+            <ul class="textBaseBoard">
+                <li>Gabriel Pereira Antoniolli</li>
+                <li>CCT College Dublin</li>
+                <li>SN: 2020352</li>
+                <li>Michael Weiss</li>
+                <li>1st Assingment</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
